@@ -40,8 +40,8 @@ CREATE TABLE "Dept_employee" (
 CREATE TABLE "Dept_manager" (
     "dept_no" varchar(30)   NOT NULL,
     "emp_no" int   NOT NULL,
-	"from_date" date   NOT NULL,
-	"to_date" date   NOT NULL
+    "from_date" date   NOT NULL,
+    "to_date" date   NOT NULL
 );
 
 ALTER TABLE "Salaries" ADD CONSTRAINT "fk_Salaries_emp_no" FOREIGN KEY("emp_no")
